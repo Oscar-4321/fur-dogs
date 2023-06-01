@@ -1,5 +1,11 @@
 <script>
     import "../app.css";
+    import NavBar from "../components/NavBar.svelte";
+    import "@fontsource/zen-dots";
 </script>
 
-<slot />
+
+<div class="h-screen overflow-y-hidden">
+    <NavBar />
+    <slot />
+</div>
